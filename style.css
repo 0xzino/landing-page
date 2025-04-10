@@ -1,3 +1,22 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
 
+.header {
+    background-color: #1F2937;
+    color: white
+}
+
+.section {
+    display: flex;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-attachment: #E5E7EB;
 }
