@@ -8,22 +8,28 @@
 </head>
 <body>
     <div class="header">
-        Header Logo
-        <a href="#">header link one</a>
-        <a href="#">header link two</a>
-        <a href="#">header link three</a>
+        <div class="left">
+        <h2>Header Logo</h2>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </div>
     </div>
 
     <div class="section hero">
-        <div class="left">
+        <div class="content">
             <h1>This website is awesome</h1>
             <p>This website has some subtext that goes here under the main title.
             It's a smaller font and the color is in a lower contrast.
             </p>
-            <button>Sign Up</button>
+            <button class = btn-sign-up>Sign Up</button>
         </div>
-        <div class="right">
-            <img src="https://blank.com/image" alt="Placeholder Image">
+        <div class="image">
+            <img  class ="imgHero" src="majima.png" alt="Placeholder Image">
         </div>
     </div>
 
@@ -58,9 +64,13 @@
 
     <div class="section signup">
         <div class="call">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button class="btn-sign-up"></button>
+            <div class=""left>
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class ="right">
+                <button class="btn-sign-up">Sign up</button>
+            </div>
         </div>
     </div>
 
